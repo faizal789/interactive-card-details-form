@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer{
+
+  input{
+    @apply text-lg border 
+  }
+
+
+  label{
+    @apply text-lg text-very-dark-violet-neutral
+  }
+}
